@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="75c8d4c7-888f-4cb0-8f9a-949dd78b9f42" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/p3_dance.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/p3_dance.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/broadcaster_ros.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/broadcaster_ros.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/visualization.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/visualization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/pafprocess/pafprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/pafprocess/pafprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/pafprocess/pafprocess_wrap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/pafprocess/pafprocess_wrap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/pycocotools/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/pycocotools/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/pycocotools/_mask.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/pycocotools/_mask.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/pycocotools/coco.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/pycocotools/coco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/pycocotools/cocoeval.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/pycocotools/cocoeval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/pycocotools/mask.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/pycocotools/mask.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slidingwindow/ArrayUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slidingwindow/ArrayUtils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slidingwindow/Batching.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slidingwindow/Batching.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slidingwindow/Merging.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slidingwindow/Merging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slidingwindow/RectangleUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slidingwindow/RectangleUtils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slidingwindow/SlidingWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slidingwindow/SlidingWindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slidingwindow/WindowDistance.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slidingwindow/WindowDistance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slidingwindow/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slidingwindow/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/BUILD" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/BUILD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/WORKSPACE" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/WORKSPACE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/datasets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/datasets/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/datasets/build_imagenet_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/datasets/build_imagenet_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/datasets/cifar10.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/datasets/cifar10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/datasets/dataset_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/datasets/dataset_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/datasets/dataset_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/datasets/dataset_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/datasets/download_and_convert_cifar10.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/datasets/download_and_convert_cifar10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/datasets/download_and_convert_flowers.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/datasets/download_and_convert_flowers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/datasets/download_and_convert_imagenet.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/datasets/download_and_convert_imagenet.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/datasets/download_and_convert_mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/datasets/download_and_convert_mnist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/datasets/download_imagenet.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/datasets/download_imagenet.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/datasets/flowers.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/datasets/flowers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/datasets/imagenet.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/datasets/imagenet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/datasets/imagenet_2012_validation_synset_labels.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/datasets/imagenet_2012_validation_synset_labels.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/datasets/imagenet_lsvrc_2015_synsets.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/datasets/imagenet_lsvrc_2015_synsets.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/datasets/imagenet_metadata.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/datasets/imagenet_metadata.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/datasets/mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/datasets/mnist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/datasets/preprocess_imagenet_validation_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/datasets/preprocess_imagenet_validation_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/datasets/process_bounding_boxes.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/datasets/process_bounding_boxes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/deployment/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/deployment/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/deployment/model_deploy.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/deployment/model_deploy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/deployment/model_deploy_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/deployment/model_deploy_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/download_and_convert_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/download_and_convert_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/eval_image_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/eval_image_classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/export_inference_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/export_inference_graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/export_inference_graph_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/export_inference_graph_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/alexnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/alexnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/alexnet_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/alexnet_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/cifarnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/cifarnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/cyclegan.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/cyclegan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/cyclegan_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/cyclegan_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/dcgan.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/dcgan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/dcgan_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/dcgan_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/inception.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/inception.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/inception_resnet_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/inception_resnet_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/inception_resnet_v2_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/inception_resnet_v2_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/inception_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/inception_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/inception_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/inception_v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/inception_v1_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/inception_v1_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/inception_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/inception_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/inception_v2_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/inception_v2_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/inception_v3.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/inception_v3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/inception_v3_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/inception_v3_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/inception_v4.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/inception_v4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/inception_v4_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/inception_v4_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/lenet.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/lenet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet/conv_blocks.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet/conv_blocks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet/madds_top1_accuracy.png" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet/madds_top1_accuracy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet/mnet_v1_vs_v2_pixel1_latency.png" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet/mnet_v1_vs_v2_pixel1_latency.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet/mobilenet.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet/mobilenet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet/mobilenet_example.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet/mobilenet_example.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet/mobilenet_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet/mobilenet_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet/mobilenet_v2_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet/mobilenet_v2_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet_v1.md" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet_v1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet_v1.png" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet_v1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet_v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet_v1_eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet_v1_eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet_v1_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet_v1_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet_v1_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/mobilenet_v1_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/nasnet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/nasnet/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/nasnet/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/nasnet/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/nasnet/nasnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/nasnet/nasnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/nasnet/nasnet_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/nasnet/nasnet_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/nasnet/nasnet_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/nasnet/nasnet_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/nasnet/nasnet_utils_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/nasnet/nasnet_utils_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/nasnet/pnasnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/nasnet/pnasnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/nasnet/pnasnet_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/nasnet/pnasnet_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/nets_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/nets_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/nets_factory_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/nets_factory_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/overfeat.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/overfeat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/overfeat_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/overfeat_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/pix2pix.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/pix2pix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/pix2pix_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/pix2pix_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/resnet_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/resnet_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/resnet_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/resnet_v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/resnet_v1_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/resnet_v1_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/resnet_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/resnet_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/resnet_v2_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/resnet_v2_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/vgg.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/vgg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/nets/vgg_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/nets/vgg_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/preprocessing/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/preprocessing/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/preprocessing/cifarnet_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/preprocessing/cifarnet_preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/preprocessing/inception_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/preprocessing/inception_preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/preprocessing/lenet_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/preprocessing/lenet_preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/preprocessing/preprocessing_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/preprocessing/preprocessing_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/preprocessing/vgg_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/preprocessing/vgg_preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/scripts/export_mobilenet.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/scripts/export_mobilenet.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/scripts/finetune_inception_resnet_v2_on_flowers.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/scripts/finetune_inception_resnet_v2_on_flowers.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/scripts/finetune_inception_v1_on_flowers.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/scripts/finetune_inception_v1_on_flowers.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/scripts/finetune_inception_v3_on_flowers.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/scripts/finetune_inception_v3_on_flowers.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/scripts/finetune_resnet_v1_50_on_flowers.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/scripts/finetune_resnet_v1_50_on_flowers.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/scripts/train_cifarnet_on_cifar10.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/scripts/train_cifarnet_on_cifar10.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/scripts/train_lenet_on_mnist.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/scripts/train_lenet_on_mnist.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/slim_walkthrough.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/slim_walkthrough.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_pose/slim/train_image_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_pose/slim/train_image_classifier.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/tfopenpose$network.coverage" NAME="network Coverage Results" MODIFIED="1547535094659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tfopenpose$videoFeatureExtractor.coverage" NAME="videoFeatureExtractor Coverage Results" MODIFIED="1547292581391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tfopenpose$soccer_generateFileList.coverage" NAME="soccer_generateFileList Coverage Results" MODIFIED="1547708581664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tfopenpose$generateReadyData.coverage" NAME="generateReadyData Coverage Results" MODIFIED="1546420798977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tfopenpose$soccerVideoFeatureExtractor.coverage" NAME="soccerVideoFeatureExtractor Coverage Results" MODIFIED="1547712887943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tfopenpose$mnist_cnn.coverage" NAME="mnist_cnn Coverage Results" MODIFIED="1546005754270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tfopenpose$generateXY.coverage" NAME="generateXY Coverage Results" MODIFIED="1547453558286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tfopenpose$run.coverage" NAME="run Coverage Results" MODIFIED="1545985167104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videoFeatureExtractor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2464">
+              <caret line="127" column="27" selection-start-line="127" selection-start-column="27" selection-end-line="127" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#649#892#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/generateFileList.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/run_modify.py" />
+        <option value="$PROJECT_DIR$/run_video_modify.py" />
+        <option value="$PROJECT_DIR$/mnist_cnn.py" />
+        <option value="$PROJECT_DIR$/generateFileList.py" />
+        <option value="$PROJECT_DIR$/generateReadyData.py" />
+        <option value="$PROJECT_DIR$/videoFeatureExtractor.py" />
+        <option value="$PROJECT_DIR$/soccerVideoFeatureExtractor.py" />
+        <option value="$PROJECT_DIR$/generateXY.py" />
+        <option value="$PROJECT_DIR$/network.py" />
+        <option value="$PROJECT_DIR$/soccer_generateFileList.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="27" />
+    <option name="y" value="128" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/run_video_modify.py" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\tfopenpose" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.soccerVideoFeatureExtractor">
+    <configuration name="generateXY" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tfopenpose" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generateXY.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="network" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tfopenpose" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="soccerVideoFeatureExtractor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tfopenpose" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/soccerVideoFeatureExtractor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="soccer_generateFileList" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tfopenpose" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/soccer_generateFileList.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="videoFeatureExtractor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tfopenpose" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/videoFeatureExtractor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.generateXY" />
+      <item itemvalue="Python.network" />
+      <item itemvalue="Python.soccerVideoFeatureExtractor" />
+      <item itemvalue="Python.soccer_generateFileList" />
+      <item itemvalue="Python.videoFeatureExtractor" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.soccerVideoFeatureExtractor" />
+        <item itemvalue="Python.soccer_generateFileList" />
+        <item itemvalue="Python.network" />
+        <item itemvalue="Python.generateXY" />
+        <item itemvalue="Python.videoFeatureExtractor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75c8d4c7-888f-4cb0-8f9a-949dd78b9f42" name="Default Changelist" comment="" />
+      <created>1545808460621</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545808460621</updated>
+      <workItem from="1545808464291" duration="20080000" />
+      <workItem from="1545880549839" duration="20001000" />
+      <workItem from="1545982943002" duration="145000" />
+      <workItem from="1545983118144" duration="8575000" />
+      <workItem from="1545994939539" duration="1937000" />
+      <workItem from="1545996911963" duration="22939000" />
+      <workItem from="1546420339474" duration="1540000" />
+      <workItem from="1546427237421" duration="12602000" />
+      <workItem from="1547262380227" duration="13798000" />
+      <workItem from="1547435129125" duration="31999000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="133616000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1652452" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.37744033" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3340564" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.3253796" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.28416485" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="SciView" order="4" visible="true" weight="0.017590618" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-defaults>
+        <breakpoint type="python-line" />
+      </breakpoints-defaults>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="setValue">
+      <expression>
+        <expression-string>'JHMDB_video/ReCompress_Videos/pullup/pullup/Eight_wide_grip_pull-ups_pullup_u_cm_np1_ba_med_1.avi'</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/543915889/1405239563/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1057">
+          <caret line="818" column="6" selection-start-line="818" selection-start-column="6" selection-end-line="818" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/p1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_video_modify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="45" lean-forward="true" selection-end-line="104" />
+          <folding>
+            <element signature="e#649#892#0" />
+            <element signature="e#1121#2102#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_modify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/apink1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/apink1_crop.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_webcam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf_pose/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2002">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/543915889/1405239563/tensorflow/python/keras/engine/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4652">
+          <caret line="1639" lean-forward="true" selection-start-line="1639" selection-end-line="1639" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/543915889/1405239563/tensorflow/_api/v1/keras/layers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="114" column="51" lean-forward="true" selection-start-line="114" selection-start-column="51" selection-end-line="114" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/543915889/1405239563/numpy/core/tests/test_numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="942" column="8" selection-start-line="942" selection-start-column="8" selection-end-line="942" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnist_cnn.py" />
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generateReadyData.py" />
+    <entry file="file://$PROJECT_DIR$/soccer.txt" />
+    <entry file="file://$PROJECT_DIR$/generateXY.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="16" lean-forward="true" selection-end-line="53" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soccer_generateFileList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-636">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soccerVideoFeatureExtractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#658#901#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soccer_goal.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf_pose/estimator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1342">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoFeatureExtractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2464">
+          <caret line="127" column="27" selection-start-line="127" selection-start-column="27" selection-end-line="127" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#649#892#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generateFileList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
